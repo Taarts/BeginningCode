@@ -6,7 +6,7 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Welcome to C#");
+      Console.WriteLine("Change");
     }
   }
 }
