@@ -6,9 +6,9 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     {
-      string characterName = "Clare";
+      string characterName = "Maryanne";
       int characterHeight;
-      characterHeight = 6;
+      characterHeight = 5;
 
       Console.WriteLine("There once was a girl called " + characterName);
       Console.WriteLine("She was " + characterHeight + " feet tall");
