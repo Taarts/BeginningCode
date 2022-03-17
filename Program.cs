@@ -10,10 +10,13 @@ namespace BeginningCode
       int characterHeight;
       characterHeight = 6;
 
-      Console.WriteLine("There once was a girl called Clare");
-      Console.WriteLine("She was 6 feet tall");
-      Console.WriteLine("She liked the name Clare");
-      Console.WriteLine("But she didn't like being 6 feet tall");
+      Console.WriteLine("There once was a girl called " + characterName);
+      Console.WriteLine("She was " + characterHeight + " feet tall");
+      Console.WriteLine("She liked the name " + characterName);
+      Console.WriteLine("But she didn't like being " + characterHeight + " feet tall");
+
+      Console.ReadLine();
+
     }
   }
 }
