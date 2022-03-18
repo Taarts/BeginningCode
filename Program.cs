@@ -6,17 +6,20 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     { 
-      int cubedNumber = cube(2);
-      Console.WriteLine(cubedNumber);
+      bool isHungry = false;
+      bool isTall = false;
       
+      if (isHungry || isTall) 
+      {
+        Console.WriteLine("You are a hungry person");
+
+      } else
+       {
+        Console.WriteLine("You are either not hungry or not tall or both");
+
+      } 
       Console.ReadLine();
 
-    }
-
-    static int cube(int num)
-    {
-      int result = num * num * num;
-      return result;
     }
 
   }
