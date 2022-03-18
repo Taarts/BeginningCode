@@ -6,18 +6,17 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     { 
-    
-      SayHi("Nick", 54);
-      SayHi("Mick", 20);
-      SayHi("Vick", 19);
+      int cubedNumber = cube(2);
+      Console.WriteLine(cubedNumber);
+      
       Console.ReadLine();
 
     }
 
-    static void SayHi(string name, int age) 
+    static int cube(int num)
     {
-      Console.WriteLine("Hello " + name + ", you are " + age);
-
+      int result = num * num * num;
+      return result;
     }
 
   }
