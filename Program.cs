@@ -6,11 +6,8 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     {
-     Console.Write("Enter your name: ");
-     String name = Console.ReadLine();
-      Console.Write("Enter your age: ");
-     String age = Console.ReadLine();
-     Console.WriteLine("Hello " + name + " you are " + age);
+    int num = Convert.ToInt32("56");
+     Console.WriteLine(num + 545);
 
       Console.ReadLine();
 
