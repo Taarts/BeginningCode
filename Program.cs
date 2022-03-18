@@ -6,10 +6,9 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     {
-      string phrase = "Microsoft is irritating";
      
 
-      Console.WriteLine( phrase.Substring(13, 4) );
+      Console.WriteLine( 10 * 14 + 11 );
      
 
       Console.ReadLine();
