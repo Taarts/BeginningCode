@@ -6,9 +6,9 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     {
-     
-      Console.WriteLine( Math.Round( 5.8 ) );
-     
+     Console.Write("Enter your name: ");
+     String name = Console.ReadLine();
+     Console.WriteLine("Hello " + name);
 
       Console.ReadLine();
 
