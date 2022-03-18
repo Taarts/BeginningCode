@@ -7,9 +7,7 @@ namespace BeginningCode
     static void Main(string[] args)
     {
      
-      int num = 11;
-      num--;
-      Console.WriteLine( num );
+      Console.WriteLine( Math.Round( 5.8 ) );
      
 
       Console.ReadLine();
