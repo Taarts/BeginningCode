@@ -7,17 +7,18 @@ namespace BeginningCode
     static void Main(string[] args)
     { 
     
-    int [] luckyNumbers = { 5, 6, 18, 79, 125, 223};
-    string [] friends = new string [6];
-    friends[0] = "Mark";
-    friends[1] = "Lisa";
-    friends[2] = "Suzie";
-    friends[3] = "Susan";
-    friends[4] = "Nick";
-    Console.WriteLine( friends[4] );
-      
+      SayHi("Nick", 54);
+      SayHi("Mick", 20);
+      SayHi("Vick", 19);
       Console.ReadLine();
 
     }
+
+    static void SayHi(string name, int age) 
+    {
+      Console.WriteLine("Hello " + name + ", you are " + age);
+
+    }
+
   }
 }
