@@ -9,13 +9,17 @@ namespace BeginningCode
       bool isHungry = false;
       bool isTall = false;
       
-      if (isHungry || isTall) 
+      if (isHungry && isTall) 
       {
         Console.WriteLine("You are a hungry person");
+      } else if (isHungry && !isTall){
+        Console.WriteLine("You are a hungry person but you are not tall");
+         } else if (!isHungry && isTall){
+        Console.WriteLine("You are not a hungry person but you are tall");
+      }else
 
-      } else
        {
-        Console.WriteLine("You are either not hungry or not tall or both");
+        Console.WriteLine("You are neither hungry nor tall");
 
       } 
       Console.ReadLine();
