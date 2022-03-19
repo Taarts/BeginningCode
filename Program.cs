@@ -6,27 +6,39 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     { 
-      Console.WriteLine(GetMax(4, 40, 50));
-      
+     
+      Console.Write("Enter a number: ");
+      double num1 = Convert.ToDouble(Console.ReadLine());
+
+      Console.Write("Enter Operator: ");
+      string op = Console.ReadLine();
+
+      Console.Write("Enter a number: ");
+      double num2 = Convert.ToDouble(Console.ReadLine());
+
+
+      if(op == "+")
+      {
+        Console.WriteLine(num1 + num2);
+      }
+      else if(op == "-")
+      {
+        Console.WriteLine(num1 - num2);
+      }
+      else if(op == "/")
+      {
+        Console.WriteLine(num1 / num2);
+      }
+      else if(op == "*")
+      {
+        Console.WriteLine(num1 * num2);
+      }
+      else
+      {
+        Console.WriteLine("Invalid Operator, try again");
+      }
       Console.ReadLine();
 
     }
-      static int GetMax(int num1, int num2, int num3) 
-      {
-        int result;
-       if(num1 >= num2 && num1 >= num3) 
-       {
-         result = num1;
-       } else if(num2 >= num1 && num2 >= num3)
-       {
-         result = num2;
-
-       }else {
-         result = num3;
-       }
-
-        return result;
-
-      }
   }
 }
