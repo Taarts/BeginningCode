@@ -6,25 +6,27 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     { 
-      bool isHungry = false;
-      bool isTall = false;
+      Console.WriteLine(GetMax(4, 40, 50));
       
-      if (isHungry && isTall) 
-      {
-        Console.WriteLine("You are a hungry person");
-      } else if (isHungry && !isTall){
-        Console.WriteLine("You are a hungry person but you are not tall");
-         } else if (!isHungry && isTall){
-        Console.WriteLine("You are not a hungry person but you are tall");
-      }else
-
-       {
-        Console.WriteLine("You are neither hungry nor tall");
-
-      } 
       Console.ReadLine();
 
     }
+      static int GetMax(int num1, int num2, int num3) 
+      {
+        int result;
+       if(num1 >= num2 && num1 >= num3) 
+       {
+         result = num1;
+       } else if(num2 >= num1 && num2 >= num3)
+       {
+         result = num2;
 
+       }else {
+         result = num3;
+       }
+
+        return result;
+
+      }
   }
 }
