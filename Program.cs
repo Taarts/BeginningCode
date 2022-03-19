@@ -7,12 +7,12 @@ namespace BeginningCode
     static void Main(string[] args)
     { 
      
-      int index = 1;
-      while (index <= 5) 
+      int index = 6;
+      do
       {
         Console.WriteLine(index);
         index++;
-      }
+      }  while (index <= 5);
     
       Console.ReadLine();
 
