@@ -6,13 +6,22 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     {
-      int [,] numberGrid = {
-        { 1, 2 },
-        { 5, 6 },
-        { 8, 9 }
-      };
+      try 
+      {
+      Console.Write("Enter a number: ");
+      int num1 = Convert.ToInt32(Console.ReadLine());
+      Console.Write("Enter another number: ");
+      int num2 = Convert.ToInt32(Console.ReadLine());
 
-      Console.WriteLine(numberGrid[1, 1]);
+      Console.WriteLine(num1 / num2);
+      }
+      catch(Exception e)
+      {
+          Console.WriteLine(e.Message);
+      }
+      
+
+     Console.ReadLine();
     }
 
     
