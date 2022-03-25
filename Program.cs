@@ -6,20 +6,15 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     {
-      Console.WriteLine(GetPow(4, 3));
-      Console.ReadLine();
-    }
-      static int GetPow(int baseNum, int powNum)
-      
-    {
-      int result = 1;
+      int [,] numberGrid = {
+        { 1, 2 },
+        { 5, 6 },
+        { 8, 9 }
+      };
 
-    for(int i = 0; i < powNum; i++)
-    {
-      result = result * baseNum;
+      Console.WriteLine(numberGrid[1, 1]);
     }
-      return result;
 
-    }
+    
   }
 }
