@@ -6,12 +6,11 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     {
-       Book book1 = new Book("Harry Potter", "Harry Potter", 452);
-       Book book2 = new Book("The Two Towers", "Tolkien", 722);
-       book2.title = "Return of the King";
-
-
-     Console.WriteLine(book2.title);
+     Student student1 = new Student("Marty", "Dance", 2.5);
+     Student student2 = new Student("Precious", "Theoretical Physics", 4.0);
+     
+     Console.WriteLine(student1.HasHonors());
+     Console.WriteLine(student2.HasHonors());
 
      Console.ReadLine();
     }
