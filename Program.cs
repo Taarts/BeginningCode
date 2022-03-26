@@ -6,10 +6,12 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     {
-     Movie avengers = new Movie("The Avengers", "Joss Whedon", "R");
-     Movie adam = new Movie("The Adam Project", "AP Earson", "PG-13");
      
-     Console.WriteLine(avengers.Rating);
+      Chef chef = new Chef();
+      chef.MakeChefSpecial();
+      
+      ItalianChef italianChef = new ItalianChef();
+      italianChef.MakeChefSpecial();
      Console.ReadLine();
     }
 
