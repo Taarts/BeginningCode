@@ -6,12 +6,10 @@ namespace BeginningCode
   {
     static void Main(string[] args)
     {
-     Student student1 = new Student("Marty", "Dance", 2.5);
-     Student student2 = new Student("Precious", "Theoretical Physics", 4.0);
+     Movie avengers = new Movie("The Avengers", "Joss Whedon", "R");
+     Movie adam = new Movie("The Adam Project", "AP Earson", "PG-13");
      
-     Console.WriteLine(student1.HasHonors());
-     Console.WriteLine(student2.HasHonors());
-
+     Console.WriteLine(avengers.Rating);
      Console.ReadLine();
     }
 
